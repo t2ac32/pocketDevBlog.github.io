@@ -1,0 +1,33 @@
+baseURL = "https://example.com"
+languageCode = "en-us"
+title = "Me vs The Robots"
+theme = "yinyang"
+DefaultContentLanguage = "en"
+
+[author]
+  name = "Tracer"
+  homepage = "https://joway.io/"
+
+[languages]
+  [languages.en]
+    contentDir = "content"
+    languageName = "English"
+    weight = 1
+
+[params]
+headTitle = "Tracer"
+disqus = "tracer" # disqus account name
+extraHead = ''
+mainSections = ["posts"]
+
+[[params.socials]]
+name = "RSS"
+link = "/index.xml"
+
+[[params.socials]]
+name = "About"
+link = "/"
+
+# Extra CSS files
+# extraCSSFiles = ["css/foo.css", "css/bar.css"]
+# For more params check github.com/joway/hugo-theme-yinyang
