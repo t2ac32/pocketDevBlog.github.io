@@ -20,13 +20,14 @@ disqus = "tracer" # disqus account name
 extraHead = ''
 mainSections = ["posts"]
 
-[[params.socials]]
-name = "RSS"
-link = "/index.xml"
+#[[params.socials]]
+#name = "RSS"
+#link = "/index.xml"
 
 [[params.socials]]
 name = "About"
-link = "/"
+pageRef = "/about"
+#link = "content"
 
 # Extra CSS files
 # extraCSSFiles = ["css/foo.css", "css/bar.css"]
