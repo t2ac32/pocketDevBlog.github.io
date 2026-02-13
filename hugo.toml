@@ -29,6 +29,10 @@ name = "About"
 pageRef = "/about"
 #link = "content"
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 # Extra CSS files
 # extraCSSFiles = ["css/foo.css", "css/bar.css"]
 # For more params check github.com/joway/hugo-theme-yinyang
