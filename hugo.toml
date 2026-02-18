@@ -1,7 +1,7 @@
 baseURL = "https://example.com"
 languageCode = "en-us"
 title = "Me vs The Robots"
-theme = "yinyang"
+theme = "PdTheme"
 DefaultContentLanguage = "en"
 
 [author]
@@ -26,8 +26,7 @@ mainSections = ["posts"]
 
 [[params.socials]]
 name = "About"
-pageRef = "/about"
-#link = "content"
+link = "/about"
 
 [caches]
   [caches.images]
